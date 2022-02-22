@@ -8,7 +8,7 @@ echo "$(tput setaf 3)     Upgrading"
 sudo apt upgrade -y
 clear
 echo "$(tput setaf 2)     Update Complete"
-echo "Upgrade Complete"
+echo "$(tput setaf 2)     Upgrade Complete"
 echo "$(tput setaf 3)     Full-Upgrade Started"
 sudo apt full-upgrade -y
 clear
