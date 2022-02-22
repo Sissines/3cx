@@ -44,6 +44,7 @@ echo "$(tput setaf 2)     File System Cleaned"
 echo "$(tput setaf 2)     3cx Installer Created"
 echo "$(tput setaf 3)     Installing Xrdp"
 sudo apt install xrdp -y  
+clear
 echo "$(tput setaf 2)     Update Complete"
 echo "$(tput setaf 2)     Upgrade Complete"
 echo "$(tput setaf 2)     Full-Upgrade Complete"
